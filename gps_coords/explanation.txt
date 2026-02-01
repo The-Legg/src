@@ -1,0 +1,4 @@
+This simulation presents GPS coordinates with latitude and longitude pairs. These values basically represent what a robot would receive from a GPS sensor when moving, let's say outside.
+To show a bit of realism, the publisher generates coordinates that slightly change, and the subscriber receives and prints them.
+This type of data would contribute to a robotics system by aiding the robot in navigation and localization. When a robot wants to move to a certain are or create its own path, it must first know where it is on a "map".
+So whenever a system requires position data, these GPS coordinates will be useful.
